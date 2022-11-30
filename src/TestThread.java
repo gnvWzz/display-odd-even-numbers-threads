@@ -3,6 +3,9 @@ public class TestThread {
         OddThread oddThread = new OddThread();
         EvenThread evenThread = new EvenThread();
 
+        System.out.println("Odd thread's hashcode is: " + oddThread.hashCode());
+        System.out.println("Even thread's hashcode is: " + evenThread.hashCode());
+
 //        oddThread.start();
 //        evenThread.start();
 
